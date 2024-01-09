@@ -3,26 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <div class="content">
-            <h1>Agents</h1>
-            <img src="assets/img/agent_accueil.jpg" alt="">
-            <button>Agents</button>
+    <section class="sec0" id="video">
+        <video autoplay loop muted onloadeddata>
+            <source src="assets/video/trailer.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="down" id="down">
+            <i class='bx bxs-down-arrow'></i>
         </div>
-        <div class="content">
-            <h1>Maps</h1>
-            <img src="assets/img/map_accueil.jpg" alt="">
-            <button>Maps</button>
+    </section>
+
+    <section class="sec1">
+        <div class="container">
+            <div class="content">
+                <h1>Agents</h1>
+                <img src="assets/img/agent_accueil.jpg" alt="">
+                <button>Agents</button>
+            </div>
+            <div class="content">
+                <h1>Maps</h1>
+                <img src="assets/img/map_accueil.jpg" alt="">
+                <button>Maps</button>
+            </div>
+            <div class="content">
+                <h1>Armes</h1>
+                <img src="assets/img/arme_accueil.jpg" alt="">
+                <button>Armes</button>
+            </div>
         </div>
-        <div class="content">
-            <h1>Armes</h1>
-            <img src="assets/img/arme_accueil.jpg" alt="">
-            <button>Armes</button>
-        </div>
-    </div>
+    </section>
+    
 </body>
+<script src="script.js"></script>
 </html>
