@@ -28,7 +28,8 @@ video{
 }
 .down{
     background: red;
-    position: absolute;
+    position: fixed;
+    z-index: 2;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -70,6 +71,7 @@ video{
     box-shadow: 0px 0px 50px #8b8b8b;
     transition: 0.5s;
     cursor: pointer;
+    border: none;
 }
 .content:hover{
     transform: translateY(-20px);
@@ -79,17 +81,4 @@ video{
     color: #df0202;
     font-size: 50px;
     letter-spacing: 3px;
-}
-.content img{
-    width: 180px;
-}
-.content button{
-    width: 50%;
-    height: 40px;
-    border-radius: 20px;
-    cursor: pointer;
-    border: none;
-    color: #df0202;
-    background: rgba(255, 255, 255, 0.1);
-    font-size: 20px;
 }
